@@ -3,12 +3,12 @@ import { useState } from "react";
 function Square({ value, onSquareClick }) {
     function X() {
         return (
-            <img src="./src/assets/x.svg" alt="" />
+            <img src="/src/assets/x.svg" alt="" />
         )
     }
     function Y() {
         return (
-            <img src="./src/assets/o.svg" alt="" />
+            <img src="/src/assets/o.svg" alt="" />
         )
     }
     let content = null;
@@ -24,12 +24,12 @@ function Square({ value, onSquareClick }) {
 function Board() {
     function X() {
         return (
-            <img src="./src/assets/x.svg" alt="" className="max-w-10"/>
+            <img src="/src/assets/x.svg" alt="" className="max-w-10"/>
         )
     }
     function Y() {
         return (
-            <img src="./src/assets/o.svg" alt="" className="max-w-10"/>
+            <img src="/src/assets/o.svg" alt="" className="max-w-10"/>
         )
     }
     const [xIsNext, setXIsNext] = useState(true)
